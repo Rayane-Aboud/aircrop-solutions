@@ -25,7 +25,7 @@ const AboutSection = () => {
     
             <div className="video-container">
             <iframe
-              src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fv%2F1DVb272Fgr%2F&show_text=false&width=734"
+              src="/videos/intro.mp4"
               width="734"
               height="400"
               style={{ border: 'none', overflow: 'hidden' }}
