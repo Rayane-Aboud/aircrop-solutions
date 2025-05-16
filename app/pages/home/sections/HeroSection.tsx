@@ -1,7 +1,7 @@
 import HeroContent from "~/components/hero-content/HeroContent";
 import Navbar from "~/components/navbar/Navbar";
 import ProductPresentationIllustration from "~/components/product-presentation-image/ProductPresentationIllustration";
-import Trust from "~/components/trust/Trust";
+import Support from "~/components/trust/Support";
 
 const HeroSection = () => {
     return (
@@ -16,7 +16,7 @@ const HeroSection = () => {
         <ProductPresentationIllustration />
   
         {/* Trust Section */}
-        <Trust />
+        <Support />
       </div>
     );
   };

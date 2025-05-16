@@ -23,10 +23,20 @@ const AboutSection = () => {
               </div>
             </div>
     
-            <MediaPreview
-              src="/api/placeholder/800/450"
-              alt="Presentation video thumbnail"
-            />
+            <div className="video-container">
+            <iframe
+              src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fv%2F1DVb272Fgr%2F&show_text=false&width=734"
+              width="734"
+              height="400"
+              style={{ border: 'none', overflow: 'hidden' }}
+              scrolling="no"
+              frameBorder="0"
+              allowFullScreen={true}
+              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+              title="Facebook video"
+            ></iframe>
+          </div>
+
           </div>
         </section>
       );
