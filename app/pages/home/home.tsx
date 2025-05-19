@@ -13,8 +13,8 @@ import WhyUsSection from "./sections/WhyUsSection";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "AirCrop | Drone & AI-powered Agriculture" },
+    { name: "description", content: "Maximize agricultural efficiency with AirCrop — the smart fusion of drones and AI to save time, money, and resources." },
   ];
 }
 

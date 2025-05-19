@@ -42,11 +42,7 @@ const Footer = () => {
               <p className="text-sm mt-2">2nd prize winners<br />in the ASC 2024</p>
             </div>
 
-            <img 
-              src="/api/placeholder/64/64" 
-              alt="Additional certification"
-              className="h-16 w-auto"
-            />
+           
           </div>
         </div>
 
