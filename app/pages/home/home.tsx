@@ -17,7 +17,9 @@ export function meta({}: Route.MetaArgs) {
     { name: "description", content: "Welcome to React Router!" },
   ];
 }
-
+//<TestimonialSection/>
+//<NewsSection/>
+//<NewsletterSection/>
 export default function Home() {
   return <> 
     <HeroSection />
@@ -25,10 +27,9 @@ export default function Home() {
     <WhyUsSection />
     <FeaturesSection />
     <MonitoringSection/>
-    <TestimonialSection/>
-    <NewsSection/>
+    
     <FAQSection/>
-    <NewsletterSection/>
+    
     <Footer/>
   </>;
 }

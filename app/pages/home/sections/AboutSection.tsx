@@ -12,13 +12,13 @@ const AboutSection = () => {
               <div className="space-y-8">
                 <InfoPoint
                   icon={<Diamond className="w-6 h-6 text-[#018D6B]" />}
-                  title="First important thing you want people to know"
-                  description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibque eu libero sed arcu ornare sociis."
+                  title="AirCrop is a Drone-as-a-Service (DaaS) platform that uses AI to monitor crop health in real time."
+                  description="We help farmers detect plant diseases, pest infestations, and irrigation issues early—before they impact yields."
                 />
                 <InfoPoint
                   icon={<LightbulbIcon className="w-6 h-6 text-[#018D6B]" />}
-                  title="Second important thing you want people to know"
-                  description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibque eu libero sed arcu ornare sociis."
+                  title="By combining aerial imaging and smart analytics, AirCrop empowers smarter farming decisions."
+                  description="Our AI-powered platform delivers actionable insights that save resources, reduce chemical usage, and maximize productivity."
                 />
               </div>
             </div>

@@ -58,43 +58,39 @@ const features: Feature[] = [
   {
     icon: Search,
     title: 'Scouting',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu libero sed arcu ornare laculis.'
+    description: 'Detect plant health issues early with drone-powered field scouting. Our system spots stress, diseases, and pests before they spread.'
   },
   {
     icon: FileText,
     title: 'Reporting',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu libero sed arcu ornare laculis.'
+    description: 'Get instant, easy-to-read reports with actionable insights. Know exactly what’s happening in your field anytime, anywhere.'
   },
   {
     icon: Map,
     title: 'Mapping',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu libero sed arcu ornare laculis.'
+    description: 'Generate high-resolution field maps using aerial imaging. Identify crop patterns, problem zones, and growth variations at scale.'
   },
   {
     icon: Droplet,
     title: 'Spraying',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu libero sed arcu ornare laculis.'
+    description: 'Say goodbye to blanket spraying. Our drones apply treatments only where needed, cutting chemical use and protecting your plants and your budget.'
   },
-  {
-    icon: Laptop,
-    title: 'Software access',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu libero sed arcu ornare laculis.'
-  },
+  
   {
     icon: Briefcase,
     title: 'Consulting',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu libero sed arcu ornare laculis.'
+    description: 'Need guidance? Our expert agronomists and engineers are here to support you with data interpretation and strategic advice.'
   },
   {
     icon: BarChart3,
     title: 'Advanced analytics',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu libero sed arcu ornare laculis.',
+    description: 'Unlock detailed performance metrics with our advanced analytics engine. Predict yield, optimize inputs, and benchmark field health.',
     badge: 'PRO'
   },
   {
     icon: Cpu,
     title: 'AI-driven insights',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu libero sed arcu ornare laculis.',
+    description: 'Let our AI do the heavy lifting. Receive smart alerts and predictions tailored to your crops, soil, and climate conditions.',
     badge: 'PRO'
   }
 ];

@@ -28,14 +28,14 @@ const MonitoringSection = () => {
     {
       title: "Plant Health",
       icon: <Sprout size={24} />,
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu libero sed arcu ornare iaculis.",
-      secondaryText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu libero."
+      description: "Identify and understand crop diseases with precision.Our system captures high-resolution images and uses AI to detect signs of disease, pest damage, or stress. You’ll receive a detailed diagnostic report highlighting the issue, affected zones, and severity level—so you know exactly what you're dealing with.",
+      secondaryText: "Full analysis of crop health with disease classification, Visual heatmaps and affected area segmentation and Actionable insights for treatment or prevention."
     },
     {
       title: "Irrigation",
       icon: <Droplets size={24} />,
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu libero sed arcu ornare iaculis.",
-      secondaryText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu libero."
+      description: "AIRCROP helps you monitor irrigation effectiveness across your field. From detecting dry spots to identifying overwatered areas, our platform helps you manage water more efficiently.",
+      secondaryText: "Detailed irrigation maps and moisture-level assessments, Support for water-saving strategies and system adjustments and Improve crop resilience while reducing resource waste"
     }
   ];
 
