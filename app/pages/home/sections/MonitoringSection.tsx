@@ -46,7 +46,7 @@ const MonitoringSection = () => {
           Monitoring done for you
         </h2>
         <p className="text-gray-600 max-w-2xl mx-auto">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu libero sed arcu ornare iaculis.
+        Experience real-time crop monitoring powered by advanced AI and data analytics, designed to give you actionable insights on plant health and irrigation efficiency.
         </p>
       </div>
       

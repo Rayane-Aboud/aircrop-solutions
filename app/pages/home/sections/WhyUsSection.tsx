@@ -9,7 +9,7 @@ const WhyUsSection = () => {
         <div className="max-w-6xl mx-auto">
           <SectionHeader
             title="Why work with us ?"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu libero sed arcu ornare laculis."
+            description="We combine innovative technology with deep agricultural expertise to provide efficient, sustainable, and cost-effective solutions tailored to farmers' real-world needs."
           />
   
           <div className="grid grid-cols-12 gap-4 relative">

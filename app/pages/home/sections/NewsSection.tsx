@@ -1,4 +1,4 @@
-import  { useRef } from 'react';
+import { useRef } from 'react';
 import { ChevronLeft, ChevronRight, Linkedin, Facebook } from 'lucide-react';
 
 interface NewsItem {
@@ -6,39 +6,24 @@ interface NewsItem {
   title: string;
   description: string;
   image: string;
+  link?: string;
 }
 
 const newsItems: NewsItem[] = [
   {
     id: 1,
-    title: "We've just released a new update!",
-    description: "Check out the all new dashboard view. Pages and now load faster.",
-    image: "/api/placeholder/400/300"
+    title: "AirCrop recognized in Algeria Startup Challenge 2024",
+    description: "AirCrop was selected as one of the most promising startups in the Algeria Startup Challenge 2024, showcasing innovative solutions in the agritech sector.",
+    image: "/latest_news/startup.png",
+    link: "https://leancubator.co/article/algeria-startup-challenge-2024-les-startup-les-plus-prometteuses-2"
   },
   {
     id: 2,
-    title: "We've just released a new update!",
-    description: "Check out the all new dashboard view. Pages and now load faster.",
-    image: "/api/placeholder/400/300"
+    title: "AirCrop wins Agritech Challenge 2024",
+    description: "AirCrop was among the 4 laureates awarded in the Agritech Challenge 2024, recognized for its groundbreaking agricultural technology solutions.",
+    image: "/latest_news/agritech.png",
+    link: "https://www.algeriainvest.com/premium-news/agritech-challenge-2024-4-laureats-primes"
   },
-  {
-    id: 3,
-    title: "We've just released a new update!",
-    description: "Check out the all new dashboard view. Pages and now load faster.",
-    image: "/api/placeholder/400/300"
-  },
-  {
-    id: 4,
-    title: "We've just released a new update!",
-    description: "Check out the all new dashboard view. Pages and now load faster.",
-    image: "/api/placeholder/400/300"
-  },
-  {
-    id: 5,
-    title: "We've just released a new update!",
-    description: "Check out the all new dashboard view. Pages and now load faster.",
-    image: "/api/placeholder/400/300"
-  }
 ];
 
 const NewsSection = () => {
@@ -61,7 +46,7 @@ const NewsSection = () => {
           Our latest news
         </h2>
         <p className="text-gray-600 max-w-2xl mx-auto">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu libero sed arcu ornare iaculis.
+          Stay updated with AirCrop's latest achievements and innovations in agritech.
         </p>
       </div>
 
@@ -93,19 +78,19 @@ const NewsSection = () => {
           {newsItems.map((item) => (
             <div
               key={item.id}
-              className="flex-none w-[300px]"
+              className="flex-none w-[300px] h-full"
             >
-              <div className="bg-white rounded-lg overflow-hidden shadow-md">
+              <div className="bg-white rounded-lg overflow-hidden shadow-md h-full flex flex-col">
                 <img
                   src={item.image}
                   alt={item.title}
                   className="w-full h-48 object-cover"
                 />
-                <div className="p-6">
-                  <h3 className="font-semibold text-lg mb-2">
+                <div className="p-6 flex-1 flex flex-col">
+                  <h3 className="font-semibold text-lg mb-2 line-clamp-2">
                     {item.title}
                   </h3>
-                  <p className="text-gray-600 mb-4">
+                  <p className="text-gray-600 mb-4 line-clamp-3 flex-1">
                     {item.description}
                   </p>
                   <div className="space-y-4">
@@ -113,20 +98,33 @@ const NewsSection = () => {
                       Read story on:
                     </p>
                     <div className="flex gap-3">
-                      <a
-                        href="#linkedin"
-                        className="p-2 rounded-full border border-gray-200 hover:bg-gray-50 transition-colors"
-                        aria-label="Share on LinkedIn"
-                      >
-                        <Linkedin className="w-5 h-5" />
-                      </a>
-                      <a
-                        href="#facebook"
-                        className="p-2 rounded-full border border-gray-200 hover:bg-gray-50 transition-colors"
-                        aria-label="Share on Facebook"
-                      >
-                        <Facebook className="w-5 h-5" />
-                      </a>
+                      {item.link ? (
+                        <a
+                          href={item.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="px-4 py-2 rounded-md bg-green-600 text-white hover:bg-green-700 transition-colors text-center w-full"
+                        >
+                          Visit Article
+                        </a>
+                      ) : (
+                        <>
+                          <a
+                            href="#linkedin"
+                            className="p-2 rounded-full border border-gray-200 hover:bg-gray-50 transition-colors"
+                            aria-label="Share on LinkedIn"
+                          >
+                            <Linkedin className="w-5 h-5" />
+                          </a>
+                          <a
+                            href="#facebook"
+                            className="p-2 rounded-full border border-gray-200 hover:bg-gray-50 transition-colors"
+                            aria-label="Share on Facebook"
+                          >
+                            <Facebook className="w-5 h-5" />
+                          </a>
+                        </>
+                      )}
                     </div>
                   </div>
                 </div>

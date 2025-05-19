@@ -18,7 +18,7 @@ export function meta({}: Route.MetaArgs) {
   ];
 }
 //<TestimonialSection/>
-//<NewsSection/>
+//
 //<NewsletterSection/>
 export default function Home() {
   return <> 
@@ -27,7 +27,7 @@ export default function Home() {
     <WhyUsSection />
     <FeaturesSection />
     <MonitoringSection/>
-    
+    <NewsSection/>
     <FAQSection/>
     
     <Footer/>

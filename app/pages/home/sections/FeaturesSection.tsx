@@ -110,13 +110,14 @@ export const FeaturesSection: React.FC<FeaturesSectionProps> = ({ className = ''
               All the features you need
             </h2>
             <p className="font-['Inter'] text-gray-600">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu libero sed arcu ornare laculis.
+            Discover a full suite of intelligent drone features designed to improve productivity, reduce costs, and help you make data-driven decisions with confidence.
             </p>
           </div>
 
           {/* Right side - Features grid */}
           <div className="col-span-8">
-            <div className="grid grid-cols-1 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+            
               {features.map((feature, index) => (
                 <FeatureCard key={index} {...feature} />
               ))}
