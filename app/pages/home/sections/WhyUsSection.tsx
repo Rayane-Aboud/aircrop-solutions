@@ -29,27 +29,23 @@ const WhyUsSection = () => {
   
             <ImageCard
               title="Time-Efficient"
-              imageSrc="/api/placeholder/100/100"
+              imageSrc="/why_us_img/clock.png"
               className="col-span-2"
             />
   
             <ImageCard
               title="Cost-Effective"
-              imageSrc="/api/placeholder/100/100"
+              imageSrc="/why_us_img/7allouf.png"
               className="col-span-2"
             />
   
             <ImageCard
               title="Safe & Sustainable"
-              imageSrc="/api/placeholder/100/100"
+              imageSrc="/why_us_img/earth.png"
               className="col-span-4 flex items-center justify-between"
             />
   
-            <ImageCard
-              title="Collaborative Approach"
-              imageSrc="/api/placeholder/150/50"
-              className="col-span-4 flex items-center justify-between"
-            />
+            
   
             <InfoCard
               title="Customized"
