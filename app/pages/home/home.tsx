@@ -1,7 +1,7 @@
 import type { Route } from "./+types/home";
 import AboutSection from "./sections/AboutSection";
 import FAQSection from "./sections/FAQSection";
-import FeaturesSection from "./sections/FeaturesSection";
+import { FeaturesSection } from "./sections/FeaturesSection";
 import Footer from "./sections/Footer";
 import HeroSection from "./sections/HeroSection";
 import MonitoringSection from "./sections/MonitoringSection";
@@ -17,9 +17,7 @@ export function meta({}: Route.MetaArgs) {
     { name: "description", content: "Welcome to React Router!" },
   ];
 }
-//<TestimonialSection/>
-//
-//<NewsletterSection/>
+
 export default function Home() {
   return <> 
     <HeroSection />
@@ -29,7 +27,11 @@ export default function Home() {
     <MonitoringSection/>
     <NewsSection/>
     <FAQSection/>
-    
     <Footer/>
   </>;
 }
+
+
+//<TestimonialSection/>
+//
+//<NewsletterSection/>
