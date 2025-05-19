@@ -20,7 +20,7 @@ const Footer = () => {
             <div className="space-y-2">
               <p>contact@aircrop.com</p>
               <p>+213 05 12 34 56 78</p>
-              <p>Random street, random zone, Algiers, Algeria</p>
+              <p>Algiers, Algeria</p>
             </div>
           </div>
 
