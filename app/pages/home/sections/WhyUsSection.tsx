@@ -33,11 +33,10 @@ const WhyUsSection = () => {
               title="Time-Efficient"
               imageSrc="/why_us_img/clock.png"
               className="md:col-span-2"
-              imageSizeClass="w-24 h-24"
+              imageSizeClass="w-50 "
               imageStyle={{
                 position: 'relative',
-                top: '30%',       // Moves image down
-                bottom: '-5%',     // Moves image up (conflicts with top, so remove one if needed)
+                bottom: '0%',     // Moves image up (conflicts with top, so remove one if needed)
                 left: '-10%',      // Moves image right
                 right: '-10%',     // Moves image left (conflicts with left)
               }}
@@ -48,12 +47,12 @@ const WhyUsSection = () => {
               title="Cost-Effective"
               imageSrc="/why_us_img/7allouf.png"
               className="md:col-span-2"
-              imageSizeClass="w-24 h-24"
+              imageSizeClass="w-50"
               imageStyle={{
                 position: 'relative',
                 top: '0%',       // Moves image down
                 bottom: '0%',     // Moves image up (conflicts with top, so remove one if needed)
-                left: '-5%',      // Moves image right
+                left: '10%',      // Moves image right
                 right: '10%',     // Moves image left (conflicts with left)
               }}
              // Move 60% from left
@@ -65,11 +64,11 @@ const WhyUsSection = () => {
               title="Safe & Sustainable"
               imageSrc="/why_us_img/earth.png"
               className="md:col-span-4 mt-6 md:mt-0"
-              imageSizeClass="w-28 h-28"
+              imageSizeClass="w-50 h-30"
               imageStyle={{
                 position: 'relative',
-                top: '10%',       // Moves image down
-                bottom: '10%',     // Moves image up (conflicts with top, so remove one if needed)
+                top: '0%',       // Moves image down
+                bottom: '0%',     // Moves image up (conflicts with top, so remove one if needed)
                 left: '10%',      // Moves image right
                 right: '10%',     // Moves image left (conflicts with left)
               }}

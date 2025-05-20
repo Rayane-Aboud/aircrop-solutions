@@ -18,8 +18,8 @@ const Footer = () => {
             </p>
 
             <div className="space-y-2">
-              <p>contact@aircrop.com</p>
-              <p>+213 05 12 34 56 78</p>
+              <p>ontact@aircrop.io</p>
+              <p>+213 560 82 88 89</p>
               <p>EL Harrach, Algiers, Algeria</p>
             </div>
           </div>
