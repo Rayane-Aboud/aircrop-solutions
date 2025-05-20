@@ -33,8 +33,14 @@ const WhyUsSection = () => {
               title="Time-Efficient"
               imageSrc="/why_us_img/clock.png"
               className="md:col-span-2"
-              imageSizeClass="w-30 h-30"
-              imageStyle={{ position: 'relative', bottom: '10%' }} // Move 20% from left
+              imageSizeClass="w-24 h-24"
+              imageStyle={{
+                position: 'relative',
+                top: '30%',       // Moves image down
+                bottom: '-5%',     // Moves image up (conflicts with top, so remove one if needed)
+                left: '-10%',      // Moves image right
+                right: '-10%',     // Moves image left (conflicts with left)
+              }}
             />
 
             <ImageCard
@@ -42,7 +48,14 @@ const WhyUsSection = () => {
               imageSrc="/why_us_img/7allouf.png"
               className="md:col-span-2"
               imageSizeClass="w-24 h-24"
-              imageStyle={{ position: 'relative', left: '35%' }} // Move 60% from left
+              imageStyle={{
+                position: 'relative',
+                top: '0%',       // Moves image down
+                bottom: '0%',     // Moves image up (conflicts with top, so remove one if needed)
+                left: '-5%',      // Moves image right
+                right: '10%',     // Moves image left (conflicts with left)
+              }}
+             // Move 60% from left
             />
 
             </div>
@@ -52,7 +65,14 @@ const WhyUsSection = () => {
               imageSrc="/why_us_img/earth.png"
               className="md:col-span-4 mt-6 md:mt-0"
               imageSizeClass="w-28 h-28"
-              imageStyle={{ position: 'relative', bottom: '%' }} // Move 35% from left
+              imageStyle={{
+                position: 'relative',
+                top: '10%',       // Moves image down
+                bottom: '10%',     // Moves image up (conflicts with top, so remove one if needed)
+                left: '10%',      // Moves image right
+                right: '10%',     // Moves image left (conflicts with left)
+              }}
+             // Move 35% from left
             />
 
   

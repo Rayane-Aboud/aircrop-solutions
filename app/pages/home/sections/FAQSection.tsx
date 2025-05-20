@@ -10,33 +10,34 @@ interface FAQItem {
 const faqItems: FAQItem[] = [
   {
     id: 1,
-    question: "Is there a free trial available?",
-    answer: "Yes, you can try us for free for 30 days. If you want, we'll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."
+    question: "Do you offer a demo?",
+    answer:
+      "Yes! We provide personalized demos to showcase how AirCrop can monitor your crops and detect issues early. Contact us to schedule a demo tailored to your farm’s needs."
   },
   {
     id: 2,
-    question: "Can I change my plan later?",
-    answer: "Yes, you can change your plan at any time. Changes will be reflected in your next billing cycle."
+    question: "What areas do you cover?",
+    answer: "We operate in select regions. Please contact us with your location to confirm coverage."
   },
   {
     id: 3,
-    question: "What is your cancellation policy?",
-    answer: "You can cancel your subscription at any time. You'll continue to have access until the end of your current billing period."
+    question: "Can I request multiple services in one mission?",
+    answer: "Yes, multiple services can be bundled into a single mission for efficiency and cost-effectiveness."
   },
   {
     id: 4,
-    question: "Can other info be added to an invoice?",
-    answer: "Yes, you can add additional information such as your VAT number, company details, or specific billing requirements to your invoices."
+    question: "How is pricing determined?",
+    answer: "Pricing depends on the services requested, farm size, and location. Contact us for a tailored quote."
   },
   {
     id: 5,
-    question: "How does billing work?",
-    answer: "We bill monthly or annually, depending on your preference. Payment is processed securely through our payment partners."
+    question: "Can I get an invoice with my farm's info?",
+    answer: "Yes, we provide invoices that include your farm’s details and any required documentation."
   },
   {
     id: 6,
-    question: "How do I change my account email?",
-    answer: "You can change your account email through your account settings page. A verification email will be sent to confirm the change."
+    question: "Is my data secure?",
+    answer: "Absolutely. We follow industry best practices to ensure your data is protected and only accessible to you."
   }
 ];
 
@@ -86,15 +87,16 @@ const FAQSection = () => {
               id={`faq-answer-${item.id}`}
               role="region"
               className={`transition-all duration-200 ease-in-out ${
-                openItem === item.id ? 'max-h-48' : 'max-h-0'
+                openItem === item.id ? 'max-h-96' : 'max-h-0'
               } overflow-hidden`}
             >
-              <div className="p-4 pt-0 pl-13">
-                <p className="text-gray-600 ml-9">
+              <div className="px-6 pb-6 pt-2">
+                <p className="text-gray-600">
                   {item.answer}
                 </p>
               </div>
             </div>
+
           </div>
         ))}
       </div>
