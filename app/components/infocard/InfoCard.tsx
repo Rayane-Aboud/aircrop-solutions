@@ -12,11 +12,11 @@ interface InfoCardProps {
     highlight,
     description,
     className = '',
-    textColor = 'text-[#0F1815]',
+    textColor = 'text-[#000000]',
     highlightColor = 'text-[#018D6B]',
   }: InfoCardProps) => (
     <div className={`bg-[#F6FAF9] rounded-xl p-6 ${className}`}>
-      <h3 className={`font-['Saira'] text-xl font-medium mb-2 ${textColor}`}>
+      <h3 className={`font-['Saira'] text-xl font-bold mb-2 ${textColor}`}>
         {title} <span className={highlightColor}>{highlight}</span>
       </h3>
       <p className="text-sm text-gray-600">{description}</p>

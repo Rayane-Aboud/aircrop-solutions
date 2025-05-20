@@ -20,7 +20,7 @@ const Footer = () => {
             <div className="space-y-2">
               <p>contact@aircrop.com</p>
               <p>+213 05 12 34 56 78</p>
-              <p>Algiers, Algeria</p>
+              <p>EL Harrach, Algiers, Algeria</p>
             </div>
           </div>
 
@@ -59,7 +59,7 @@ const Footer = () => {
             </div>
 
             <p className="text-gray-500">
-              © 2024 Aircrop. All rights reserved.
+              © 2025 Aircrop. All rights reserved.
             </p>
 
             <div className="flex gap-6">

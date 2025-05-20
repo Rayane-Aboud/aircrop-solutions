@@ -9,16 +9,18 @@ const Navbar = () => {
     <nav className="flex items-center justify-between flex-wrap px-4 sm:px-6 py-4 relative text-white">
       {/* Logo */}
       <div className="flex items-center gap-2">
+      <a href="/" className="flex items-center gap-2">
         <img src="/assets/logo.png" alt="AirCrop Logo" width="40" height="40" />
         <span className="text-[#F6FAF9] font-['Saira'] text-xl sm:text-2xl">AIRCROP</span>
+      </a>
+
       </div>
 
       {/* Desktop Navigation */}
       <div className="hidden sm:flex items-center gap-6">
         <div className="flex gap-6">
-          <a href="#" className="text-[#F5F9F8] font-['Inter'] font-semibold hover:text-[#018D6B] transition">About us</a>
-          <a href="#" className="text-[#F5F9F8] font-['Inter'] font-semibold hover:text-[#018D6B] transition">Product</a>
-          <a href="#" className="text-[#F5F9F8] font-['Inter'] font-semibold hover:text-[#018D6B] transition">FAQ</a>
+          <a href="/about" className="text-[#F5F9F8] font-['Inter'] font-semibold hover:text-[#018D6B] transition">About us</a>
+          <a href="/products" className="text-[#F5F9F8] font-['Inter'] font-semibold hover:text-[#018D6B] transition">Products</a>
         </div>
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSc7_1rlZcBUdjyFlk82ikk2iUnwWrktfKMRJPyMBsWXvXpw3Q/viewform?usp=dialog"
@@ -64,9 +66,8 @@ const Navbar = () => {
       {/* Mobile Menu Dropdown */}
       {isOpen && (
         <div className="absolute top-full left-0 w-full bg-[#0F1815] border-t border-[#018D6B] py-4 px-6 flex flex-col gap-4 sm:hidden z-50">
-          <a href="#" className="text-[#F5F9F8] font-['Inter'] font-semibold">About us</a>
-          <a href="#" className="text-[#F5F9F8] font-['Inter'] font-semibold">Product</a>
-          <a href="#" className="text-[#F5F9F8] font-['Inter'] font-semibold">FAQ</a>
+          <a href="/about" className="text-[#F5F9F8] font-['Inter'] font-semibold">About us</a>
+          <a href="/products" className="text-[#F5F9F8] font-['Inter'] font-semibold">Products</a>
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSc7_1rlZcBUdjyFlk82ikk2iUnwWrktfKMRJPyMBsWXvXpw3Q/viewform?usp=dialog"
             target="_blank"

@@ -24,29 +24,37 @@ const WhyUsSection = () => {
             <HighlightCard
               title="Agriculture enhanced by"
               highlights={['drones', 'AI']}
-              imageSrc="/api/placeholder/400/300"
+              imageSrc="/assets/drone.png"
               className="md:col-span-4 md:row-span-2 order-first md:order-none mb-6 md:mb-0"
             />
   
             <div className="grid grid-cols-2 gap-4 md:contents">
-              <ImageCard
-                title="Time-Efficient"
-                imageSrc="/why_us_img/clock.png"
-                className="md:col-span-2"
-              />
-  
-              <ImageCard
-                title="Cost-Effective"
-                imageSrc="/why_us_img/7allouf.png"
-                className="md:col-span-2"
-              />
+            <ImageCard
+              title="Time-Efficient"
+              imageSrc="/why_us_img/clock.png"
+              className="md:col-span-2"
+              imageSizeClass="w-30 h-30"
+              imageStyle={{ position: 'relative', bottom: '10%' }} // Move 20% from left
+            />
+
+            <ImageCard
+              title="Cost-Effective"
+              imageSrc="/why_us_img/7allouf.png"
+              className="md:col-span-2"
+              imageSizeClass="w-24 h-24"
+              imageStyle={{ position: 'relative', left: '35%' }} // Move 60% from left
+            />
+
             </div>
   
             <ImageCard
               title="Safe & Sustainable"
               imageSrc="/why_us_img/earth.png"
-              className="md:col-span-4 flex items-center justify-between mt-6 md:mt-0"
+              className="md:col-span-4 mt-6 md:mt-0"
+              imageSizeClass="w-28 h-28"
+              imageStyle={{ position: 'relative', bottom: '%' }} // Move 35% from left
             />
+
   
             <InfoCard
               title="Customized"
