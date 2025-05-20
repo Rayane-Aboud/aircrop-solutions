@@ -17,11 +17,11 @@ const ImageCard = ({
   return (
     <div className={`bg-[#F6FAF9] rounded-xl p-4 ${className}`}>
       <h3 className="font-['Saira'] text-lg font-bold mb-2">{title}</h3>
-      <div className="absolute">
+      <div className="relative">
         <img
           src={imageSrc}
           alt={title}
-          className={`${imageSizeClass} `}
+          className={`${imageSizeClass} object-contain`}
           style={imageStyle}
         />
       </div>

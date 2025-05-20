@@ -41,6 +41,7 @@ const WhyUsSection = () => {
                 left: '-10%',      // Moves image right
                 right: '-10%',     // Moves image left (conflicts with left)
               }}
+             // Move 20% from left
             />
 
             <ImageCard
