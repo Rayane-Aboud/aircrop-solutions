@@ -1,0 +1,1 @@
+import{w as o}from"./with-props-BMOtgW5C.js";import{o as t}from"./chunk-D4RADZKF-BXVSF3ox.js";import{U as r}from"./under_construction-Cv5afHRM.js";import"./Navbar-WpqniYMr.js";const u=o(function(){return t.jsx(r,{})});export{u as default};
